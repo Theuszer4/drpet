@@ -1,0 +1,45 @@
+.container-cadastro-pet {
+  max-width: 800px;
+  width: 100%;
+  margin: 30px;
+  width: 100vw;
+  min-height: 620px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 110px;
+}
+.content-cadastro  {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.content-cadastro h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.img-dog-cadastro {
+  margin-left: 100px;
+  margin-bottom: -300px;
+}
+.container-cadastro-pet img{
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  margin-left: 250px;
+}
+
+.mensagem {
+  color: #00d600;
+  font-weight: bold;
+}
+
+@media (max-width: 1200px) {
+  .img-dog-cadastro {
+      display: none;
+  }
+}

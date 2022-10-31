@@ -1,0 +1,40 @@
+.container-alterar-infos {
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    max-width: 330px;
+    height: 350px;
+
+}
+.div-text-icon {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+.icon-lapis {
+    margin-left: 15px;
+}
+.div-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px 0 20px;
+}
+.div-buttons a {
+    background: rgba(108, 193, 250, 0.5);
+    border-radius: 20px;
+    width: 295px;
+    height: 50px;
+    margin-top: 25px;  display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #000;
+}
+.icon {
+    margin-left: 30px;
+}
+
+
+
